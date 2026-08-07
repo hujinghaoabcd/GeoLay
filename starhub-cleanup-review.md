@@ -43,9 +43,20 @@
 | `xizher/webgis-glcedu` | 保留 |
 | `alibaba/spatial-data-vis-framework` | 保留 |
 | `izdnalqsm/3d-ri-rdtl` | 删除 |
+| `Leaflet/Leaflet` | 保留 |
+| `stefanocudini/leaflet-compass` | 保留 |
+| `rhlt/leaflet-geolet` | 删除 |
+| `lehmannro/validitychecker` | 删除 |
+| `cedadev/cf-checker` | 保留 |
+| `raphaeldussin/pyautoQC` | 保留 |
+| `johnryantaylor/QCES` | 删除 |
+| `sylvia-dee/PRYSM` | 保留 |
+| `Archaeo-Programmer/paleoMAT` | 删除 |
+| `markmbaum/GEOCLIM.jl` | 删除 |
+| `fzhu2e/cfr` | 保留 |
 
 ## 汇总
 
-- 已确认项目：39
-- 删除：17
-- 保留：22
+- 已确认项目：50
+- 删除：22
+- 保留：28
