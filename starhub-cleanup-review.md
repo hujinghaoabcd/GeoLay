@@ -105,9 +105,64 @@
 | `e-oj/Fawn` | 删除 |
 | `doableware/djongo` | 删除 |
 | `paqman85/simple-celery-flower-on-heroku` | 删除 |
+| `sharanms/shiny-spatio-temporal` | 删除 |
+| `amrcode1/tutorial-shiny-spatial` | 删除 |
+| `bcgov/BGC3D` | 删除 |
+| `R-S-P-MODELS/SpatioTemporalExplorer` | 删除 |
+| `jarred13/Climate_Data_Visualization` | 删除 |
+| `copier-org/copier` | 保留 |
+| `mikeckennedy/cookiecutter-course` | 删除 |
+| `cjolowicz/cookiecutter-hypermodern-python` | 保留 |
+| `iterative/py-template` | 保留 |
+| `scverse/cookiecutter-scverse` | 保留 |
+| `GeoNode/geonode` | 保留 |
+| `openmaptiles/openmaptiles` | 保留 |
+| `developmentseed/titiler` | 保留 |
+| `yhdjyyzk/amazingGIS` | 保留 |
+| `opengeos/GeoLibre` | 保留 |
+| `openwisp/django-rest-framework-gis` | 保留 |
+| `makinacorpus/django-mapentity` | 保留 |
+| `nansencenter/django-geo-spaas` | 保留 |
+| `flavors/django-graphql-geojson` | 删除 |
+| `Terralego/django-geostore` | 保留 |
+| `nikivanstein/OWCK` | 保留 |
+| `xiaomuliu/GaussianProcessCrimePrediction` | 删除 |
+| `mid2SUPAERO/multi-fi-optimization` | 删除 |
+| `Chienyungtseng/Bayesian-Experimental-Design-coupling-with-Multi-fidelity-Gaussian-Processes` | 保留 |
+| `sotakao/moap-bml-workshop` | 保留 |
+| `albertz/PyCPython` | 保留 |
+| `evhub/coconut` | 保留 |
+| `larryhastings/gilectomy` | 删除 |
+| `Oh-Marshal/go-compiler` | 删除 |
+| `poemm/pywebassembly` | 删除 |
+| `carbon-language/carbon-lang` | 删除 |
+| `RichardLitt/standard-readme` | 保留 |
+| `ml-archive/readme` | 删除 |
+| `DamianRincon/DamianRincon` | 删除 |
+| `saurabhnative/create-frontend-readme` | 保留 |
+| `anhduy1202/Git-Readme` | 删除 |
+| `banesullivan/README` | 保留 |
+| `bradyrx/climate_in_color` | 保留 |
+| `pangeo-data/xcmocean` | 保留 |
+| `smalljian10/python-colormap` | 删除 |
+| `pratiman-91/colormaps` | 保留 |
+| `openradar/cmweather` | 保留 |
+| `conda-forge/colormaps-feedstock` | 删除 |
+| `gustavovelascoh/traffic-surveillance-dataset` | 保留 |
+| `JingqingZ/BaiduTraffic` | 保留 |
+| `LibCity/Bigscity-LibCity-Datasets` | 保留 |
+| `fmpr/mobility-baselines` | 保留 |
+| `liuxu77/LargeST` | 保留 |
+| `LibCity/M-LibCity` | 删除 |
+| `Lab-Work/IMM_EnKF_Traffic_Estimation_Incident_Detection` | 保留 |
+| `xinychen/transdim` | 保留 |
+| `ricardozacarias/nyc-crime-ML` | 保留 |
+| `Nupurgopali/Traffic-Prediction-using-SVR-and-RFR` | 删除 |
+| `kaiene/TF_STARIMA` | 保留 |
+| `mounika-b-25/Toronto-Collision-Analysis-and-Flow-Simulation-in-Toronto-Using-Cellular-Automata-Models` | 删除 |
 
 ## 汇总
 
-- 已确认项目：101
-- 删除：39
-- 保留：62
+- 已确认项目：156
+- 删除：60
+- 保留：96
