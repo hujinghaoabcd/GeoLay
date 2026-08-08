@@ -54,9 +54,60 @@
 | `Archaeo-Programmer/paleoMAT` | 删除 |
 | `markmbaum/GEOCLIM.jl` | 删除 |
 | `fzhu2e/cfr` | 保留 |
+| `chnsh/DCRNN_PyTorch` | 保留 |
+| `tanwimallick/graph_partition_based_DCRNN` | 保留 |
+| `m-altieri/Graph-WaveNet` | 删除 |
+| `tsinghua-fib-lab/TKDD2023-CSTGCN-Astar` | 保留 |
+| `nabilbenmerad/RadarNet` | 删除 |
+| `JoanaR/multi-mode-CNN-pytorch` | 保留 |
+| `ECMWFCode4Earth/DeepR` | 保留 |
+| `taohan10200/CRA5` | 保留 |
+| `vuepress/core` | 保留 |
+| `shoppingzh/press-util` | 删除 |
+| `logicspark/awesome-vitepress-v1` | 保留 |
+| `hunvreus/pagescms` | 保留 |
+| `tortoise/tortoise-orm` | 保留 |
+| `dotnetcore/FreeSql` | 保留 |
+| `lonsonlee/py_oracle2oracle` | 删除 |
+| `fastapi/sqlmodel` | 保留 |
+| `github/gitignore` | 保留 |
+| `sdras/awesome-actions` | 保留 |
+| `drshahizan/learn-github` | 删除 |
+| `raythunder/github-stars-manager` | 保留 |
+| `jazzband/django-hosts` | 保留 |
+| `coddingtonbear/django-mailbox` | 保留 |
+| `makinacorpus/django-geojson` | 保留 |
+| `YuanbiaoWEI/LushanMap` | 删除 |
+| `ngageoint/geopackage-js` | 保留 |
+| `fatiando/geometric` | 删除 |
+| `xcube-dev/xcube` | 保留 |
+| `realiii/pygeopkg` | 保留 |
+| `devork/twkb` | 删除 |
+| `mathLab/PyGeM` | 保留 |
+| `georust/tilejson` | 删除 |
+| `abduhbm/zmapio` | 保留 |
+| `LucaTorriani/KrigingManifoldData` | 保留 |
+| `Azizimj/Robust-Simulation-Optimization-Kriging` | 删除 |
+| `alberto-bellin/Hydro_gen` | 保留 |
+| `M1nerAI/pyspde` | 保留 |
+| `djlampert/PyHSPF` | 保留 |
+| `pyswmm/Stormwater-Management-Model` | 保留 |
+| `California-Data-Collaborative/cadc_reservoir_explorer` | 删除 |
+| `KTH-dESA/FAO` | 删除 |
+| `sherzodr/libpenmon` | 删除 |
+| `VUB-HYDR/QSWAT_Automated_Workflow` | 保留 |
+| `kkyong77/SWAT_CalSensUC` | 保留 |
+| `alexrigby/LUCST` | 保留 |
+| `devalc/Pi-VAT` | 保留 |
+| `lm-costa/swat_ex` | 删除 |
+| `rq/rq` | 保留 |
+| `OmniDB/OmniDB` | 保留 |
+| `e-oj/Fawn` | 删除 |
+| `doableware/djongo` | 删除 |
+| `paqman85/simple-celery-flower-on-heroku` | 删除 |
 
 ## 汇总
 
-- 已确认项目：50
-- 删除：22
-- 保留：28
+- 已确认项目：101
+- 删除：39
+- 保留：62
