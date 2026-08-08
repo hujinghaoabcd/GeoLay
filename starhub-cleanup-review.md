@@ -160,9 +160,62 @@
 | `Nupurgopali/Traffic-Prediction-using-SVR-and-RFR` | 删除 |
 | `kaiene/TF_STARIMA` | 保留 |
 | `mounika-b-25/Toronto-Collision-Analysis-and-Flow-Simulation-in-Toronto-Using-Cellular-Automata-Models` | 删除 |
+| `Toblerity/rtree` | 保留 |
+| `springmeyer/geotools2mapnik` | 删除 |
+| `gisalgs/indexing` | 删除 |
+| `DHI/mikeio` | 保留 |
+| `kylebarron/pymartini` | 保留 |
+| `chrispahm/spatialmerge` | 保留 |
+| `tovrstra/nemo` | 删除 |
+| `rckitson/cokriging` | 保留 |
+| `Pan-YANG/FBRK` | 保留 |
+| `wangjz131/H_Kriging` | 删除 |
+| `yasiaee/Co-kriging` | 保留 |
+| `tadams37/CBAS` | 删除 |
+| `caesar0301/city-cellular-traffic-map` | 删除 |
+| `mapleyustat/SpatioTemporal-Segmentation` | 删除 |
+| `usc-isi-i2/linked-maps` | 保留 |
+| `RansML/Directional-Grid-Maps` | 删除 |
+| `anindyaghosh/event-based-downsampling` | 保留 |
+| `PRBonn/spatio-temporal-mapping` | 删除 |
+| `ac0015/wrf-ens-tools` | 保留 |
+| `dtcenter/MET` | 保留 |
+| `tjwixtrom/wrf-scripts` | 保留 |
+| `NOAA-MDL/CAMPS` | 保留 |
+| `daquinterop/forecast_verification` | 删除 |
+| `quishqa/wrf_eval` | 删除 |
+| `rjsampa/WRFdownscalingML` | 保留 |
+| `sipposip/ensemble-neural-network-weather-forecasts` | 删除 |
+| `zmlabe/ModelBiasesANN` | 保留 |
+| `kjhall01/xcast` | 保留 |
+| `zmlabe/SAI` | 保留 |
+| `Risk-Team/CAVAanalytics` | 保留 |
+| `MeteoSwiss/realtime_pollen_calibration` | 删除 |
+| `MeteoSwiss/ai-models-ensembles` | 保留 |
+| `bamos/girl` | 删除 |
+| `jasonlong/cayman-theme` | 保留 |
+| `readmeTips/readmeTips.github.io` | 保留 |
+| `RaidAndFade/HacktoberChallenges2018` | 删除 |
+| `imfunniee/imfunniee` | 删除 |
+| `ajmeese7/readme-ascii` | 保留 |
+| `realwds/super-single-page` | 保留 |
+| `klugjo/hexo-theme-magnetic` | 删除 |
+| `Haojen/hexo-theme-Anisina` | 删除 |
+| `Molunerfinn/hexo-theme-melody` | 保留 |
+| `fakeyanss/Hexo-Album` | 删除 |
+| `miiiku/hexo-theme-flexblock` | 保留 |
+| `ZaiZheTingDun/hexo-simple-image` | 删除 |
+| `D-Sketon/hexo-theme-reimu` | 保留 |
+| `nopri/sqliteboy` | 删除 |
+| `benattal/sqlite` | 删除 |
+| `rogerbinns/apsw` | 保留 |
+| `palantir/sqlite3worker` | 删除 |
+| `mdegrazia/SQLite-Deleted-Records-Parser` | 保留 |
+| `lazzyfu/goInsight` | 保留 |
+| `simonw/sqlite-utils` | 保留 |
 
 ## 汇总
 
-- 已确认项目：156
-- 删除：60
-- 保留：96
+- 已确认项目：209
+- 删除：83
+- 保留：126
