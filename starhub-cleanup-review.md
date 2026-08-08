@@ -213,9 +213,61 @@
 | `mdegrazia/SQLite-Deleted-Records-Parser` | 保留 |
 | `lazzyfu/goInsight` | 保留 |
 | `simonw/sqlite-utils` | 保留 |
+| `geovista/geoviz-toolkit` | 删除 |
+| `pelednoam/mmvt` | 删除 |
+| `huiyadanli/VisGDP` | 删除 |
+| `azlkiniue/stevia` | 删除 |
+| `UniStuttgart-VISUS/spatiotemporal1d` | 保留 |
+| `Ayushjangida/Spatio-Temporal-Viz` | 删除 |
+| `maliny12/sugarglider` | 删除 |
+| `jazzband/django-constance` | 保留 |
+| `djangopackages/djangopackages` | 保留 |
+| `jazzband/django-configurations` | 保留 |
+| `joke2k/django-environ` | 保留 |
+| `agateblue/django-dynamic-preferences` | 保留 |
+| `openwisp/django-netjsonconfig` | 删除 |
+| `justdjango/django-package-review` | 删除 |
+| `webpack/webpack` | 保留 |
+| `mishoo/UglifyJS` | 删除 |
+| `terser/terser` | 保留 |
+| `rollup/rollup` | 保留 |
+| `code-warrior/gulp-template-for-html-css-sass-js` | 删除 |
+| `parcel-bundler/parcel` | 保留 |
+| `vedees/webpack-template` | 删除 |
+| `longfly04/Traffic-flow-forecast` | 删除 |
+| `chuanting/FedDA` | 保留 |
+| `zouguojian/Traffic-flow-prediction` | 保留 |
+| `gadear13/tgat` | 删除 |
+| `zouguojian/Travel-time-prediction` | 保留 |
+| `BUAABIGSCity/PDFormer` | 保留 |
+| `XDZhelheim/STAEformer` | 保留 |
+| `hydrogo/DA_and_ML_in_hydrology` | 删除 |
+| `montimaj/HydroMST` | 保留 |
+| `hydrogo/KALI` | 删除 |
+| `montimaj/HydroSAR` | 保留 |
+| `montimaj/HydroNet` | 删除 |
+| `oreopie/hydro-interpretive-dl` | 保留 |
+| `leelew/HybridHydro` | 保留 |
+| `lizhuoq/lstm4flood` | 删除 |
+| `fedonman/ssta-cams` | 删除 |
+| `bachya/pyairvisual` | 保留 |
+| `dataandcrowd/jasss` | 保留 |
+| `thomaspinder/airQuality` | 删除 |
+| `vannizhang/airquality-aware` | 保留 |
+| `MeteoSwiss/python-TAMER` | 保留 |
+| `jinhyokh/pyairhealth` | 保留 |
+| `m-edal/normet` | 保留 |
+| `yyr/ncl-mode` | 删除 |
+| `astuyve/wx2` | 删除 |
+| `MetOffice/forest` | 删除 |
+| `ARM-DOE/ACT` | 保留 |
+| `GlobalTopSystems/meteo4d` | 删除 |
+| `donmezkutay/visjobs` | 保留 |
+| `fra-mar/atmospheric_reentry_sim` | 删除 |
+| `Aditya24Sharma/Climate-Change-Trend-Visualization` | 删除 |
 
 ## 汇总
 
-- 已确认项目：209
-- 删除：83
-- 保留：126
+- 已确认项目：261
+- 删除：108
+- 保留：153
