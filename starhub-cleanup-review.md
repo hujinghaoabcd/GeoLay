@@ -370,9 +370,96 @@
 | `Tissot/react-image-cropper` | 删除 |
 | `Jiangmenghao/vip-video-player` | 删除 |
 | `gabrieltempass/streamlit-navigation-bar` | 保留 |
+| `jackmoore/colorbox` | 删除 |
+| `stephband/jparallax` | 删除 |
+| `h5bp/html5-boilerplate` | 删除 |
+| `animate-css/animate.css` | 保留 |
+| `LeaVerou/animatable` | 删除 |
+| `uxsolutions/bootstrap-datepicker` | 删除 |
+| `jhollingworth/bootstrap-wysihtml5` | 删除 |
+| `calebjacob/tooltipster` | 删除 |
+| `pstadler/the-cube` | 删除 |
+| `drublic/css-modal` | 删除 |
+| `chinchang/hint.css` | 删除 |
+| `wenzhixin/bootstrap-table` | 保留 |
+| `alvarotrigo/fullPage.js` | 保留 |
+| `arashmanteghi/simptip` | 删除 |
+| `tobiasahlin/SpinKit` | 保留 |
+| `kristoferjoseph/flexboxgrid` | 删除 |
+| `IanLunn/Hover` | 删除 |
+| `tictail/bounce.js` | 删除 |
+| `layui/layer` | 删除 |
+| `saeedalipoor/icono` | 保留 |
+| `Tencent/weui` | 保留 |
+| `sweetalert2/sweetalert2` | 保留 |
+| `awesome-css-group/awesome-css` | 保留 |
+| `afonsopacifer/awesome-flexbox` | 删除 |
+| `layui/layui` | 保留 |
+| `reactstrap/reactstrap` | 删除 |
+| `storybookjs/storybook` | 保留 |
+| `ElemeFE/mint-ui` | 删除 |
+| `vuematerial/vue-material` | 删除 |
+| `iview/iview` | 删除 |
+| `vuetifyjs/vuetify` | 保留 |
+| `bootstrap-vue/bootstrap-vue` | 删除 |
+| `vbohush/geometric-progress-view` | 删除 |
+| `MrMoveon/layuiAdmin` | 删除 |
+| `styled-components/awesome-styled-components` | 删除 |
+| `horsecms/layuiCMS` | 删除 |
+| `huiyan-fe/hui-ui` | 删除 |
+| `nhn/tui.calendar` | 删除 |
+| `vueComponent/ant-design-vue` | 保留 |
+| `tailwindlabs/tailwindcss` | 保留 |
+| `didi/cube-ui` | 删除 |
+| `geosigno/simpleParallax.js` | 保留 |
+| `fallsea/fsLayui` | 删除 |
+| `d2-projects/d2-admin` | 删除 |
+| `horsecms/layuicms2.0` | 删除 |
+| `nilbuild/driver.js` | 保留 |
+| `TalkingData/iview-weapp` | 删除 |
+| `antvis/awesome-f2-charts` | 删除 |
+| `visualjerk/vue-cion-design-system` | 删除 |
+| `myttyy/layuinotice` | 删除 |
+| `9499574/layui-transfer` | 保留 |
+| `alibaba/formily` | 保留 |
+| `yelog/layui-soul-table` | 保留 |
+| `jolaleye/cssfx` | 删除 |
+| `Run2948/layuiAdmin` | 保留 |
+| `storybookjs/design-system` | 保留 |
+| `zhongshaofa/layuimini` | 删除 |
+| `antvis/GUI` | 删除 |
+| `ant-design-blazor/ant-design-blazor` | 保留 |
+| `fireship-io/222-responsive-icon-nav-css` | 删除 |
+| `C-GY/Y-Admin` | 保留 |
+| `Alexandrshy/keukenhof` | 删除 |
+| `element-plus/element-plus` | 保留 |
+| `duetds/date-picker` | 保留 |
+| `tailwindlabs/headlessui` | 保留 |
+| `open-anthro-projects/nekomata-ui` | 删除 |
+| `DenverCoder1/Responsive-Birthday-Card` | 删除 |
+| `tusen-ai/naive-ui` | 保留 |
+| `BugzTheBunny/streamlit_custom_gui` | 删除 |
+| `lunar-landing/pear-admin` | 删除 |
+| `lunar-landing/layui-vue` | 保留 |
+| `Socvest/streamlit-on-Hover-tabs` | 删除 |
+| `formkit/auto-animate` | 保留 |
+| `youneslaaroussi/ui-buttons` | 保留 |
+| `wei-design/web-vue` | 删除 |
+| `FightingDesign/fighting-design` | 删除 |
+| `valcosmos/valtify` | 删除 |
+| `isolcat/catisol-ui` | 删除 |
+| `wocwin/t-ui-plus` | 删除 |
+| `wozien/kun-ui` | 删除 |
+| `kits-ui/kits-ui` | 删除 |
+| `lyuly/wview` | 删除 |
+| `Sight-wcg/layui-theme-dark` | 保留 |
+| `ashish-simform/sld-ui` | 删除 |
+| `ObservedObserver/streamlit-shadcn-ui` | 保留 |
+| `lio-mengxiang/t-ui` | 保留 |
+| `typsusan-zzz/canvas-drawing-editor` | 保留 |
 
 ## 汇总
 
-- 已确认项目：366
-- 删除：190
-- 保留：176
+- 已确认项目：453
+- 删除：244
+- 保留：209
