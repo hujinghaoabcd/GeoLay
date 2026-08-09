@@ -265,9 +265,18 @@
 | `donmezkutay/visjobs` | 保留 |
 | `fra-mar/atmospheric_reentry_sim` | 删除 |
 | `Aditya24Sharma/Climate-Change-Trend-Visualization` | 删除 |
+| `leongersen/noUiSlider` | 删除 |
+| `autoNumeric/autoNumeric` | 删除 |
+| `peterhry/CircleType` | 删除 |
+| `LeaVerou/stretchy` | 删除 |
+| `strawdynamics/drift` | 删除 |
+| `locomotivemtl/locomotive-scroll` | 删除 |
+| `denizdxyz/Streamlit-Image-Carousel` | 删除 |
+| `CodeSeven/toastr` | 保留 |
+| `nieheyong/starflare` | 保留 |
 
 ## 汇总
 
-- 已确认项目：261
-- 删除：108
-- 保留：153
+- 已确认项目：270
+- 删除：115
+- 保留：155
