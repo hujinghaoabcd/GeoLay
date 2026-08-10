@@ -1,0 +1,123 @@
+# StarHub Jupyter Notebook Cleanup — Batch 05
+
+- Source baseline: `starhub-backup-2026-08-10(1).json`
+- Language: Jupyter Notebook
+- Batch: 5 / 5
+- Scope: 278 repositories
+- Final decision: keep 167, unstar 111
+- User decision: accept assistant recommendations as presented
+- Standing overrides preserved: WRF / WRF-Chem / WRF-CMAQ / WRF-Hydro / WRF post-processing and GWR / MGWR / STWR-related repositories are retained.
+
+## Repositories to unstar
+
+- `nicolasfauchereau/BAMS_STOC_2022`
+- `DataDrivenGalaxyEvolution/galevo23-tutorials`
+- `Devazc/FALA`
+- `DevinRShaw/simple_noaa`
+- `agungbaruna/modul-pemodelan-iklim`
+- `reint-fischer/Climate-Demo-Notebooks`
+- `hmcalister/Neural-Network-Weight-Importance-Measures`
+- `sbml-lab/D-GELS`
+- `earthrise-media/plotline`
+- `yihanchen3/Network-Anomaly-Traffic-Detection-and-Prediction-using-Spatio-Temporal-Networks`
+- `difuse-dartmouth/geography-extreme-climate-events`
+- `aaalexlit/omdena_climate_change_challenge_notebooks`
+- `daffafs/Time-Series-Analysis-with-Autoregressive-Model-for-Air-Quality-in-India`
+- `sanbot93/climate_analysis_assignment`
+- `gianscuri/DataViz_Milano_Air_Quality_Index_Tableau`
+- `hgarbeil/co2_tsa`
+- `vboussange/WSLJuliaWorkshop2023`
+- `holoviz-topics/neuro`
+- `kedarghule/Spatio-Temporal-Network-Forecasting`
+- `koleshjr/UmojaHack-Africa-2023-Carbon-Dioxide-Prediction-Challenge`
+- `rmholmes/Radiation_CMIP_Practical_public`
+- `sanjeevnara7/FootballPassPrediction`
+- `BirkhoffG/explainax`
+- `Mustafayapar/Data-Science-Greenhouse-effect`
+- `yang-su2000/State-Space-Interpretability`
+- `azsom/Interpretable_ML_ODSC`
+- `KEHUIYAO/spatio-temporal-imputation`
+- `Luiz-Octavioo/Climate-Python`
+- `jcorner1/Unidata_Workshop2023`
+- `ECMWFCode4Earth/sketchbook-earth`
+- `kbongi/Masters_paper`
+- `Unidata/users-workshop-2023`
+- `tstazbid/WeatherGuard-Pro`
+- `FaisalTurki01/climate_change_trend_analysis`
+- `plugyawn/TemporalGCN`
+- `akash18tripathi/MAGNET-Multi-Label-Text-Classi-cation-using-Attention-based-Graph-Neural-Network`
+- `NathanNeelis/Thesis_climate-change-anxiety`
+- `Pabloo22/gnn_scheduler`
+- `TirendazAcademy/PandasAI-Tutorials`
+- `Pandla-Vijay/Video-Captioning-using-Spatio-temporal-features-and-Gaussian-Attention`
+- `johnwslee/fine_dust_analysis_2`
+- `mims-harvard/PDGrapher`
+- `alexandergagliano/InterpretabilityDemos`
+- `OpenClimateScience/M1-Open-Climate-Data`
+- `AnnKaushal/Climate_Modelling_of_Earth_System`
+- `rpglab/GNN-LSTM_C-V-R-SCUC`
+- `joseale2310/project-template`
+- `initze/carbon_stocks_viz`
+- `Godesh/SST-analysis`
+- `USU-Analytics-Solution-Center/wit_climate_sustainability`
+- `Curtis-Wu/Equivariant-Graph-Transformer`
+- `akshat26101999/CO2-Emissions-Project`
+- `dataprofessor/population-dashboard`
+- `MasixoleBOYA/Spatio-Temporal-Analytics`
+- `MuzBerry/Global-Temperature-Analysis`
+- `jh-chung1/GNN_ElasticModulus_Prediction`
+- `AliAmini93/GNN-MNIST`
+- `zzhangzzhang/pLMs-interpretability`
+- `sisinflab/LoG-2023-GNNs-RecSys`
+- `anishakumari05/Weather-Forecast`
+- `ciol-researchlab/SupplyGraph`
+- `rugilandavyi/Climate-Data-Analysis`
+- `werywjw/SEP-CVDL`
+- `jesuslovesyiyi/Understanding-Climate-Change`
+- `maximillian-dolan/climate_change_dashboard`
+- `DavidKurzIBK/climate-system-notebooks`
+- `CU-ESIIL/forest-carbon-codefest`
+- `bvdeenen/moncton-climate`
+- `semanticClimate/colab-dict_chapter_climate_hackathon`
+- `MarijaMirchevska/air-pollution-skopje`
+- `LAMPSYORKU/NCOMMS_MaizeProduction`
+- `ligin1/Python-tutorial-for-climate-science`
+- `Breast-cancer-analysis/ST-DBSCAN`
+- `geografope/maplibre-con-python`
+- `YoushanZhang/AiAI`
+- `geoelements/xai-lateral-spreading`
+- `sahilkirti/Spatio-Temporal`
+- `timothewt/SP100AnalysisWithGNNs`
+- `LandscapeGeoinformatics/agile2024_rf_interpretability`
+- `waveshareteam/ugv_jetson`
+- `Wafama/Spatiotemporal-Data-Analysis`
+- `gerritgr/SpatioTemporal`
+- `jsreev/ClimateWins`
+- `amangupta143/Air-Quality-Prediction-FB-Prophet`
+- `gerritgr/spatio-temporal-lecture`
+- `ktcarr/whoi-climate-data-tutorial`
+- `nguyen-group/GNNOpt`
+- `mayavchung/enso-disease`
+- `SJuneDataLair/ClimateWins-Compass-6`
+- `KevinSilvaEstrela/Climate_Change_Notebook`
+- `kinyatoride/AtmosAnalysisNotebooks`
+- `connectashish028/Intro_to_RNN_LSTM_forecasting`
+- `guebelsn/Meteorology_F24`
+- `apatania/Data-Analysis-Climate-Science`
+- `weiji3x/CF_ClimateWins`
+- `lee1043/notebooks`
+- `earthlab-education/climate-coding-challenge-VictoriAragon`
+- `earthlab-education/climate-coding-challenge-earthlab-test-student`
+- `earthlab-education/climate-coding-challenge-amarangunic`
+- `earthlab-education/climate-coding-challenge-gpb3037`
+- `earthlab-education/climate-coding-challenge-sear2701`
+- `ztest95/rice-prod-analysis`
+- `DJVolin/ClimateChangeNYC`
+- `Vikktor93/global-air-pollution-linear-regression`
+- `unkaktus/climate-notebooks`
+- `Vishali2002/Spatio--Temporal-segmentation`
+- `mhpi/hydro_data_dev`
+- `KabileshRajaselvan/Spatio--Temporal-segmentation`
+- `Madhan1037/spatio-temporal-segmentation`
+- `earthlab-education/fundamentals-04-redlining-akpost21`
+- `AnaLazarevska/climatewins_machine_learning`
