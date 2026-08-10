@@ -1,0 +1,127 @@
+# StarHub Jupyter Notebook cleanup — third aggressive pass
+
+Source: surviving Jupyter Notebook stars after five-round cleanup and second aggressive pass.
+
+User decision: KEEP #4, #21, #44, #61, #74, #100, #107 from the 116 third-pass candidates; UNSTAR all others.
+
+## KEEP
+- #4 `scikit-geometry/scikit-geometry`
+- #21 `maximerischard/GeoRDD.jl`
+- #44 `fmpr/amortized-mxl`
+- #61 `cohortshapley/cohortshapley`
+- #74 `AntonioLonga/AdvancePyTorchGeometricTutorials`
+- #100 `KalcMatej99/TrafficPrediction_MLG_Project`
+- #107 `m-mullins/Time-series-forecasting_DL_weather-forecast`
+
+## UNSTAR
+- `hddm-devs/hddm`
+- `fund-model/MimiFUND.jl`
+- `SciTools/tephi`
+- `hhuangwx/cmaps`
+- `jakevdp/PythonDataScienceHandbook`
+- `mdeff/cnn_graph`
+- `ankurtaly/Integrated-Gradients`
+- `NatLabRockies/OpenOA`
+- `SciTools/python-stratify`
+- `Unidata/science-gateway`
+- `planetlabs/notebooks`
+- `marcoalopez/strength_envelopes`
+- `USDA-ARS-NWRC/smrf`
+- `SWOTAlgorithms/RiverObs`
+- `KrisCheng/Deep4Cli`
+- `HugoBlox/hugo-theme-academic-cv`
+- `jphall663/interpretable_machine_learning_with_python`
+- `krasserm/bayesian-machine-learning`
+- `EarthByte/paleoclimate-reconstruction`
+- `ac3-tr/ac3-notebooks`
+- `lavinei/pybats`
+- `JavierAntoran/Bayesian-Neural-Networks`
+- `Dewberry/pfra-hydromet`
+- `KIT-HYD/geostatistics_lecture`
+- `wjmaddox/drbayes`
+- `AlaaLab/deep-learning-uncertainty`
+- `SuryanarayanaMK/PDE-STRIDE`
+- `dsgiitr/graph_nets`
+- `earth-env-data-science/earth-env-data-science-book`
+- `bgroenks96/generative-downscaling`
+- `sparticlesteve/climate-seg-benchmark`
+- `earthlab/UNet_Impervious_Surface_Classifier`
+- `OGGM/world-glacier-explorer`
+- `LAMPSYORKU/OntarioClimateDataPortal`
+- `cc-ai/climategan`
+- `iHeadWater/hydro_gis_tutorials`
+- `plotly/graphing-library-docs`
+- `patrick-kidger/generalised_shapelets`
+- `executablebooks/sphinx-book-theme`
+- `rdemedrano/crann_traffic`
+- `JannisHoch/copro`
+- `pinga-lab/DisReserv`
+- `giswqs/earthengine-apps`
+- `loicduffar/SM2RAIN-Tools`
+- `darribas/gds_course`
+- `zzaebok/KGCN-pytorch`
+- `HugoBlox/hugo-theme-data-science-blog`
+- `loicduffar/Homegeneity-test-for-hydrologic-time-series`
+- `NielsRogge/Transformers-Tutorials`
+- `loicduffar/Isohyet-Map`
+- `mszell/bikenwgrowth`
+- `IBM/spatial-lstm`
+- `earthdaily/Examples-and-showcases`
+- `CrayLabs/NCAR_ML_EKE`
+- `duttong/NOAA_halocarbons_loader`
+- `Yu-Group/adaptive-wavelets`
+- `AntonioLonga/PytorchGeometricTutorial`
+- `brodeau/gonzag`
+- `petrelli-m/python_earth_science_book`
+- `ManzhuYu/Code-SpatioTemporalAttention-LSTM-main`
+- `rdrussotto/GISS-E3_TC_notebooks`
+- `neildhir/DCBO`
+- `chrispahm/spatialmerge`
+- `jeffjay88/Climate_Indices`
+- `pratiman-91/colormaps`
+- `sisaman/GAP`
+- `zademn/netsci-labs`
+- `BritishGeologicalSurvey/sensor-things-api-demo`
+- `SherylHYX/SSSNET_Signed_Clustering`
+- `chakib401/graph_convolutional_clustering`
+- `IbrahimSobh/Transformers`
+- `waimorris/E-GraphSAGE`
+- `ashishpatel26/Treasure-of-Transformers`
+- `MagnusPetersen/Neural-Cellular-Automata-Image-Manipulation`
+- `vizzuhq/ipyvizzu`
+- `FionaLippert/FluxRGNN`
+- `compgeolab/transform2022`
+- `ternaustralia/cmrset-examples`
+- `pyaj0/optimization-hydrologic-station-network`
+- `UMich-CURLY/NeuralBKI`
+- `mlabonne/graph-neural-network-course`
+- `eabarnes1010/ml_tutorial_csu`
+- `anguyen8/visual-correspondence-XAI`
+- `AI4EPS/homepage`
+- `cemac/LIFD_GaussianProcesses`
+- `njmarko/graph-transformer-psiml`
+- `tbeucler/2022_ML_EES`
+- `iHeadWater/iheadwater_hackweek_tutorials`
+- `IHCantabria/SIMPCCe`
+- `zahta/Graph-Machine-Learning`
+- `scitools-classroom/iris-mesh-tutorial`
+- `TheAIDojo/AI-for-Climate-Change`
+- `chaitjo/geometric-gnn-dojo`
+- `laurensstoop/CREDI`
+- `climate-tech-handbook/climate-tech-handbook`
+- `Cambridge-ICCS/practical-ml-with-pytorch`
+- `Sven-Bo/PyGWalker-Guide-for-Streamlit-and-Jupyter`
+- `Algomancer/Bayesian-Flow-Networks`
+- `MacObri/spatiotemporal-conflictmap`
+- `qiangyao1988/IA-ViT`
+- `interpretingdl/eacl2024_transformer_interpretability_tutorial`
+- `thunwal/bioinvasionanalysis`
+- `adamzhen/climateservAccess`
+- `gabrielchua/RAGxplorer`
+- `HEGSRR/OR-VT-Pharmacy`
+- `NASAARSET/ARSET_CO2_Measurements_Climate`
+- `emilhu20/Spatio-Temporal-Model-Charging`
+- `diam0voi/lab5_trafficflow_models`
+- `LarryLi93/dive-into-langgraph-plus`
+
+Totals: KEEP 7 / UNSTAR 109.
