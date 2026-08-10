@@ -1,0 +1,134 @@
+# StarHub Jupyter Notebook cleanup — final aggressive pass
+
+Source: surviving Jupyter Notebook stars after the five-round review, second aggressive pass, and third aggressive pass.
+
+User decision: KEEP #8, #22, #56, #62 from the 123 final-pass candidates; UNSTAR all others.
+
+## KEEP
+- #8 `holoviz-topics/examples`
+- #22 `nathanwang000/Shapley-Flow`
+- #56 `ernestvmo/spatio-temporal-crime-prediction`
+- #62 `ykwon0407/beta_shapley`
+
+## UNSTAR
+- `OSGeo/OSGeoLive-Notebooks`
+- `leotac/joypy`
+- `parrt/dtreeviz`
+- `xarray-contrib/xarray-tutorial`
+- `gasteigerjo/ppnp`
+- `SantanderMetGroup/ATLAS`
+- `OuyangWenyu/hydromodel`
+- `Yefee/xMCA`
+- `Unidata/python-training`
+- `seongjunyun/Graph_Transformer_Networks`
+- `mizvol/anomaly-detection`
+- `SantanderMetGroup/DeepDownscaling`
+- `brian-rose/ClimateLaboratoryBook`
+- `StanfordASL/Trajectron-plus-plus`
+- `giswqs/earthengine-py-notebooks`
+- `roocs/rook`
+- `executablebooks/MyST-NB`
+- `Knowledge-Precipitation-Tribe/Spatio-Temporal-papers`
+- `Climdyn/qgs`
+- `dgilford/tcpyPI`
+- `yunwei37/ZJU-CS-GIS-ClassNotes`
+- `spcl/deep-weather`
+- `makinacorpus/geolabel-maker`
+- `ofuhrer/HPC4WC`
+- `GenericMappingTools/try-gmt`
+- `cdpierse/transformers-interpret`
+- `loicduffar/GHCN-Tools`
+- `BCG-X-Official/facet`
+- `brazil-data-cube/code-gallery`
+- `JGCRI/stitches`
+- `loicduffar/ERA5-tools`
+- `ecmwf-lab/med-extreme-prec-atm-patterns`
+- `GlacierMIP/GlacierMIP3`
+- `KlenM/pyAtmosphere`
+- `CompEarthSci/CompEarthSci`
+- `NCAR/esds`
+- `oreopie/hydro-interpretive-dl`
+- `hila-chefer/Transformer-MM-Explainability`
+- `giswqs/geebook`
+- `pietrobarbiero/pytorch_explain`
+- `real-itu/3d-artefacts-nca`
+- `wanyu-lin/ICML2021-Gem`
+- `mengcz13/KDD2021_CNFGNN`
+- `faktaoklimatu/data-analysis`
+- `JingweiZuo/SMATE`
+- `Vizzuality/cog_worker`
+- `bragagnololu/OptStations`
+- `nicolasfauchereau/ML4SeasonalForecasts`
+- `Xiaoshu-Zhao/Spatio-temporal-data-processing-for-traffic-safety`
+- `Dependable-Intelligent-Systems-Lab/xwhy`
+- `huawei-noah/HEBO`
+- `xuguangning1218/Typhoon_Path`
+- `konstantinklemmer/spate-gan`
+- `UW-GDA/jupyterbook`
+- `inlab-geo/espresso`
+- `EleutherAI/pythia`
+- `sangyx/gtrick`
+- `RecklessRonan/GloGNN`
+- `ChenggongWang/Radiative_Response_with_Radiative_Kernel`
+- `Graph-COM/GSAT`
+- `sotakao/moap-bml-workshop`
+- `UW-GDA/how_GOES_the_fire_detection`
+- `cheginit/camels_netcdf`
+- `xuyhan/gnn-dissect`
+- `martenlienen/finite-element-networks`
+- `AntonotnaWang/HINT`
+- `moboehle/B-cos`
+- `AngelosNal/Vision-DiffMask`
+- `leap-stc/metaflux`
+- `AdrianArnaiz/DiffWire`
+- `mszell/geospatialdatascience`
+- `rucool/cool_maps`
+- `MarcoLandtHayen/climate_index_collection`
+- `vijaydwivedi75/lrgb`
+- `RituPande/hnca`
+- `microsoft/augmented-interpretable-models`
+- `ProjectPythia/physical-oceanography-cookbook`
+- `ProjectPythia/cesm-lens-aws-cookbook`
+- `WongKinYiu/yolov7`
+- `luigiselmi/wekeo_jnc`
+- `gabboraron/Nvidia-Disaster_Risk_Monitoring_Using_Satellite_Imagery`
+- `aimclub/StableGNN`
+- `vanderschaarlab/Interpretability`
+- `wattenberg/superposition`
+- `earth-artificial-intelligence/earth_ai_book_materials`
+- `ykwon0407/WeightedSHAP`
+- `pyartemis/artemis`
+- `JonathanCrabbe/RobustXAI`
+- `alonjacovi/XAI-Scholar`
+- `mitvis/saliency-cards`
+- `thinkingmachines/project-cchain`
+- `xmed-lab/CLIP_Surgery`
+- `batmanlab/ICML-2023-Route-interpret-repeat`
+- `OuyangWenyu/HydroMTL`
+- `ECMWFCode4Earth/TropiDash`
+- `reds-lab/2d-shapley`
+- `muandet-lab/ExplainingGaussianProcess`
+- `YizongZhang/HDMTL`
+- `ProjectPythia/advanced-viz-cookbook`
+- `google-research-datasets/global_streamflow_model_paper`
+- `KurochkinAlexey/SpatioTemporalMomentum`
+- `lrnzgiusti/on-oversquashing`
+- `xinychen/visual-spatial-data`
+- `sail-sg/D-TRAK`
+- `neuromatch/climate-course-content`
+- `MTSWebServices/CoolGraph`
+- `WUR-AI/AgML-CY-Bench`
+- `NatLabRockies/gcm_eval`
+- `mathworks/Precipitation-Variability-Analysis-MATLAB`
+- `nram812/A-Robust-Generative-Adversarial-Network-Approach-for-Climate-Downscaling`
+- `NCAR/osdf-examples`
+- `IVRL/MeshNCA`
+- `ProjectPythia/CFC-extreme-weather-cookbook`
+- `ScienceCore/scipy-2024-climaterisk`
+- `IVRL/NoiseNCA`
+- `matteodefelice/energy-climate-cookbook`
+- `ProjectPythia/great-circle-cookbook`
+- `spatialthoughts/geopython-tutorials`
+- `Osondu-ifunanya/Assessing-the-impact-of-climate-change-on-flood-patterns-in-downstream-Nigeria-using-machine-learnin`
+
+Totals: KEEP 4 / UNSTAR 119.
