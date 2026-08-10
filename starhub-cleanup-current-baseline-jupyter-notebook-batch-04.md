@@ -1,0 +1,131 @@
+# StarHub cleanup — Jupyter Notebook batch 04
+
+- Baseline: `starhub-backup-2026-08-10(1).json`
+- Language: `Jupyter Notebook`
+- Batch size: 279
+- Decision: execute assistant recommendations
+- KEEP: 163
+- UNSTAR: 116
+
+## UNSTAR
+
+- 2. `nurakawa/localized-classmap`
+- 3. `samanthastevenson/EDS220_Fall2021`
+- 5. `stewartchrisecmwf/training`
+- 7. `sonnymetvn/Basic-Python-for-Meteorology`
+- 9. `aws-samples/churn-prediction-with-text-and-interpretability`
+- 10. `prakhargurawa/Drug-Similarity-and-Link-Prediction-using-Graph-Embeddings-on-Medical-Knowledge-Graph`
+- 11. `xugaoxiang/yolov5-streamlit`
+- 13. `sidneyarcidiacono/UnderstandingGCNs`
+- 15. `marcoalopez/Python_course`
+- 18. `eren-ck/spatio-temporal-clustering-benchmark`
+- 20. `mickaellalande/CMIP6_HMA_paper`
+- 22. `ClimateMARGO/ClimatePlots`
+- 24. `rnepal2/Solubility-Prediction-with-Graph-Neural-Networks`
+- 25. `BrownDwarf/purplebook`
+- 26. `carbform/Climate_Data_Plotting`
+- 28. `AidanCooper/shap-analysis-guide`
+- 29. `atmosmattbrewer/Fovell_lab`
+- 32. `HuangFeini/ExplainAI`
+- 34. `wafarifki/Hacktoberfest_2021`
+- 36. `maheshk-DS/Climate-Change-Forecast-Time-Series-Analysis-`
+- 37. `Badr-MOUFAD/cookiecutter-simple-DS-project`
+- 38. `zeenfts/drought-level-classif`
+- 39. `Abe4280/Climate_Change_Belief_Analysis_2021`
+- 40. `PhilipUit/Denver_International_Airport_climate_data`
+- 42. `at-tan/Forecasting_Air_Pollution`
+- 43. `leolorenzoii/ml2_interpretability`
+- 47. `chrisroadmap/cop26-pathways`
+- 48. `Gare-Uti/Gare-Uti-NOAA_US_Weather-Data_analysis_with_python`
+- 49. `sm823zw/Recommendation-System-Using-GNNs`
+- 53. `ShreyanshJoshi/BITS-F312---Neural-Nets-and-Fuzzy-Logic`
+- 54. `WPZgithub/CEFCON`
+- 55. `stefmolin/python-data-viz-workshop`
+- 56. `martinagvilas/concept-based-explanation`
+- 57. `LandscapeGeoinformatics/est_water_qual`
+- 58. `ArsamAryandoust/DataSelectionMaps`
+- 59. `UBC-MDS/forest-fire-area-prediction`
+- 66. `jwy-wbe/Python-in-Atmospheric-Science`
+- 67. `prclibo/ice`
+- 68. `jlira5418/sqlalchemy-challenge`
+- 70. `NASA-Openscapes/2021-Cloud-Workshop-AGU`
+- 71. `dennissergeev/lfric_exo_bench_code`
+- 72. `UCB-stat-159-s22/site`
+- 82. `ratih-wlndr/time-series-air-quality-data-in-india`
+- 83. `ACM-Research/exoplanet-atmosphere-analysis-with-ML`
+- 86. `earthlab-education/ea-course-notebooks`
+- 89. `afisc/climate_project`
+- 98. `gustavo-bravo11/Small_Climate_Analysis`
+- 101. `geoelements/xai-classification`
+- 103. `jmathur25/climatehack`
+- 104. `tbeucler/2022_ML_Earth_Env_Sci`
+- 105. `suyash-chintawar/Spatio-Temporal-Attention-based-Video-Captioning`
+- 109. `laurahdezlorenzo/graph_genetics`
+- 114. `mnperic/seq-rainfall-catchment`
+- 116. `aazuspan/ee_repository_stats`
+- 117. `Unidata/metpy-bams-2022`
+- 122. `ianormy/ClimateSpiralMatplotlib`
+- 126. `yosra270/covid-19-and-air-quality-cross-correlation`
+- 127. `ProjectPythia/cookbook-template`
+- 131. `dquintani/GreenhouseData`
+- 137. `marinadunn/SHIFT-STAC-backend`
+- 138. `marinadunn/SHIFT-STAC-demo`
+- 139. `antonio-f/AirQualityIndex`
+- 142. `jcorner1/NIU_Masters`
+- 144. `annamarieweber/AQI-predictor`
+- 145. `Jayesh-Kumpawat/SpatioTemporal-Visibility-Prediction`
+- 148. `VireshAmbardar/Optimizing-Agricultural-Production-Engine`
+- 154. `nicolasfauchereau/climate_data_analytics`
+- 157. `VACILT/reliability_LE`
+- 158. `geomorphlab/medaes`
+- 160. `faizla/fyp-master-study-airpollution`
+- 165. `wassermanlab/ExplaiNN`
+- 166. `Kaustubh-Tambe/Climate-Prediction`
+- 167. `Serein-s/short_term_climate_class`
+- 168. `e-marshall/itslive`
+- 174. `philine-bommer/ClimateInformatics2022`
+- 175. `akbazuka/SpatioTemporalNormalisation`
+- 180. `Prakashdeveloper03/CuteCharts`
+- 182. `jayepraveen999/Forest-Fire-Analysis-using-Multidimensional-Data-`
+- 183. `cemac/LIFD_RandomForests`
+- 185. `guybenyosef/EchoGraphs`
+- 186. `cemac/LIFD_ConvolutionalNeuralNetworks`
+- 195. `LandscapeGeoinformatics/biogeomon_2022_pangeo`
+- 200. `xx257xx/1D-gaussian-random-fields-Gaussian-process-`
+- 204. `PhilipMcCormick/Misc-Climate-EDA`
+- 205. `zhuofan-16/Air_Quality_Forecasting`
+- 206. `Inha-Competition-Team/spatio-temporal`
+- 208. `NordicESMhub/galaxy-climate`
+- 209. `Murugan-Karthick/Spatio-Temporal-Action-Recognition-with-Hybrid-Transformers`
+- 211. `nooraftab/hurricane_power`
+- 212. `mcallaghan/NLP-climate-science-tutorial-CCAI`
+- 216. `cehbrecht/jupyter-guide-to-climate-data`
+- 222. `SantanderMetGroup/training-climate4r`
+- 226. `DanielRianos/climate_data_analysis`
+- 230. `Dan-Boat/pyGMT_tutorials`
+- 234. `nazneenrajani/interpreting-ml-models-course`
+- 235. `donlapark/XLabel`
+- 236. `tomersk/learn-python`
+- 237. `regev-lab/interpretable-splicing-model`
+- 238. `OmdenaAI/nairobi-kenya-tackle-climatechange`
+- 241. `tomersk/python-applications`
+- 243. `sambartusek/PNW_heatwave_2021`
+- 246. `IshaSinghVatsa/SpatioTemporalDataAnalysis`
+- 247. `adrianograms/Climate-Prediction`
+- 250. `BobrG/neuro-gnn-project`
+- 252. `pangeo-data/escience-2022`
+- 253. `sanjayd89/Algeria_GreenHouse`
+- 254. `computiq-training/Machine_Learning_for_Climate_Change`
+- 255. `Gianluca124/Air_Pollution_Data_Visualization_Tableau`
+- 256. `CSI-SCT-SB/MarkItDown`
+- 257. `sungyubkim/if_classic`
+- 259. `fedebotu/Green-Planet-Transformers-3`
+- 260. `GVS-007/Spatio-Temporal-Analysis`
+- 262. `IshaSinghVatsa/SpatioTempDA`
+- 267. `ArminAlaei/computational-essay-waves`
+- 273. `danieloaAAU/Power_Control_GNN`
+- 277. `sivm205/Real_Time-Video-Surveillance-and-Anomaly-Detection`
+
+## KEEP
+
+All remaining batch-04 repositories were retained according to the reviewed recommendations.
