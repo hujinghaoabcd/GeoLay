@@ -81,10 +81,50 @@ jobs:
               json.dump(result,f,ensure_ascii=False,separators=(",",":"))
           print(f"SUCCESS: wrote {out}, TOTAL={len(unique)}, PAGES={last}")
           PY
+      - name: Compare actual Stars with the November 14 StarHub backup
+        run: |
+          python3 - <<'PY'
+          import json, glob, os
+          from datetime import datetime, timezone
+          with open("audit/github-star-current-2026-11-15.json",encoding="utf-8") as f:
+              live=json.load(f)
+          legacy=[]
+          paths=sorted(glob.glob("audit/legacy-ids-*.txt"))
+          if len(paths)!=14:
+              raise RuntimeError(f"Missing legacy ID segments: {len(paths)}")
+          for p in paths:
+              with open(p,encoding="utf-8") as f:
+                  legacy.extend(int(line) for line in f if line.strip())
+          old=set(legacy)
+          if len(legacy)!=14223 or len(old)!=14223:
+              raise RuntimeError(f"Invalid legacy backup count: {len(legacy)} rows, {len(old)} unique")
+          cur={int(x["id"]):x for x in live["repos"]}
+          if len(cur)!=live["total"]:
+              raise RuntimeError("Invalid current snapshot")
+          old_only=sorted(old-cur.keys())
+          new_only=[x for x in live["repos"] if x["id"] not in old]
+          report={
+            "account":live["username"],
+            "based_on_live_at":live["fetched_at"],
+            "historical_backup_export":"2026-11-14T15:06:11.322Z",
+            "historical_count":len(old),
+            "current_public_star_count":len(cur),
+            "retained":len(old & cur.keys()),
+            "removed_since_backup_count":len(old_only),
+            "new_since_backup_count":len(new_only),
+            "removed_repo_ids":old_only,
+            "newly_starred_repos":new_only,
+            "method":"Exact GitHub repository id set comparison; public stars only",
+          }
+          with open("audit/github-star-diff-2026-11-15.json","w",encoding="utf-8") as f:
+              json.dump(report,f,ensure_ascii=False,indent=2)
+          print("VERIFIED SUMMARY:",{k:v for k,v in report.items() if k not in ("removed_repo_ids","newly_starred_repos")})
+          print("RECENT NEW STARS:",[r["full_name"] for r in new_only[-25:]])
+          PY
       - name: Save audited snapshot to isolated branch
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add audit/github-star-current-2026-11-15.json
+          git add audit/github-star-current-2026-11-15.json audit/github-star-diff-2026-11-15.json
           git commit -m "audit: snapshot public starred repositories" 
           git push origin HEAD:audit/starred-check-2026-11-15
