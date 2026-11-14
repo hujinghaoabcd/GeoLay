@@ -103,7 +103,16 @@ jobs:
               raise RuntimeError("Invalid current snapshot")
           old_only=sorted(old-cur.keys())
           new_only=[x for x in live["repos"] if x["id"] not in old]
+          # Compact exact membership mask over the legacy IDs in ascending order.
+          # Each set bit means that historical repository is NOT starred now.
+          removal_set=set(old_only)
+          mask=bytearray((len(old)+7)//8)
+          for i,rid in enumerate(sorted(old)):
+              if rid in removal_set:
+                  mask[i//8] |= (1 << (i % 8))
           report={
+            "removed_index_bitset_hex":mask.hex(),
+            "legacy_mask_order":"ascending repository id, least-significant bit first",
             "account":live["username"],
             "based_on_live_at":live["fetched_at"],
             "historical_backup_export":"2026-11-14T15:06:11.322Z",
