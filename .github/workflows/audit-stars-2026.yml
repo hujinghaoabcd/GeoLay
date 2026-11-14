@@ -1,0 +1,90 @@
+name: Starred repositories audit (read-only on stars)
+on:
+  push:
+    branches:
+      - audit/starred-check-2026-11-15
+
+permissions:
+  contents: write
+
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Collect current public starred repositories via official GitHub API
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python3 - <<'PY'
+          import os, json, time, re, urllib.request, urllib.error
+          from concurrent.futures import ThreadPoolExecutor, as_completed
+          from datetime import datetime, timezone
+          from urllib.parse import urlparse, parse_qs
+
+          user = "hujinghaoabcd"
+          root = f"https://api.github.com/users/{user}/starred?per_page=100&sort=created&direction=asc"
+          token = os.getenv("GH_TOKEN", "")
+          def fetch(page):
+              url = root + f"&page={page}"
+              for attempt in range(5):
+                  try:
+                      req = urllib.request.Request(url, headers={
+                          "Accept": "application/vnd.github+json",
+                          "Authorization": "Bearer " + token,
+                          "User-Agent": "StarHub-public-star-audit-2026",
+                          "X-GitHub-Api-Version": "2022-11-28",
+                      })
+                      with urllib.request.urlopen(req, timeout=60) as resp:
+                          data = json.load(resp)
+                          link = resp.headers.get("Link", "")
+                          return page, data, link
+                  except (urllib.error.HTTPError, urllib.error.URLError, TimeoutError) as e:
+                      if attempt == 4: raise
+                      time.sleep(2 ** attempt + 1)
+          p1, first, links = fetch(1)
+          matches = re.findall(r'<([^>]+)>; rel="last"', links)
+          last = int(parse_qs(urlparse(matches[-1]).query).get("page", ["1"])[0]) if matches else 1
+          print(f"API last page: {last}; first page entries: {len(first)}")
+          if last < 5: raise RuntimeError("Too few pages for expected account; refusing partial snapshot")
+          pages = {1:first}
+          with ThreadPoolExecutor(max_workers=6) as pool:
+              fs = [pool.submit(fetch, p) for p in range(2,last+1)]
+              for f in as_completed(fs):
+                  p, data, _ = f.result()
+                  if not isinstance(data, list): raise TypeError(f"Invalid data at page {p}")
+                  pages[p] = data
+                  if p % 25 == 0: print(f"Fetched page {p}/{last}")
+          all_items = [r for p in range(1,last+1) for r in pages[p]]
+          unique = {}
+          for r in all_items:
+              unique[r["id"]] = {
+                  "id":r["id"],
+                  "full_name":r["full_name"],
+                  "html_url":r["html_url"],
+                  "description":r.get("description"),
+                  "language":r.get("language"),
+                  "topics":r.get("topics",[]),
+                  "stargazers_count":r.get("stargazers_count"),
+                  "archived":r.get("archived"),
+                  "pushed_at":r.get("pushed_at"),
+              }
+          if len(unique) != len(all_items):
+              raise RuntimeError(f"Duplicate IDs from pagination: {len(all_items)} rows / {len(unique)} ids; avoid incomplete snapshot")
+          result = {"username":user, "source":"GitHub official GET /users/{username}/starred",
+                    "fetched_at":datetime.now(timezone.utc).isoformat(),
+                    "total":len(unique),"pages":last,"repos":list(unique.values())}
+          out = "audit/github-star-current-2026-11-15.json"
+          os.makedirs("audit",exist_ok=True)
+          with open(out,"w",encoding="utf-8") as f:
+              json.dump(result,f,ensure_ascii=False,separators=(",",":"))
+          print(f"SUCCESS: wrote {out}, TOTAL={len(unique)}, PAGES={last}")
+          PY
+      - name: Save audited snapshot to isolated branch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add audit/github-star-current-2026-11-15.json
+          git commit -m "audit: snapshot public starred repositories" 
+          git push origin HEAD:audit/starred-check-2026-11-15
